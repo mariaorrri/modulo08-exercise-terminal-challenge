@@ -1,0 +1,56 @@
+    1  mkdir tutorial_terminal
+    2  cd tutorial_terminal/
+    3  touch hello_world.py
+    4  nano hello_world.py 
+    5  mkdir scripts_python
+    6  mv hellow_world.py scripts_python/
+    7  mv hello_world.py scripts_python/
+    8  mkdir scripts_bash
+    9  cd scripts_bash/
+   10  touch ejecuta_python.sh
+   11  nano ejecuta_python.sh 
+   12  ./ejecuta_python.sh
+   13  chmod +x ejecuta_python.sh 
+   14  ./ejecuta_python.sh
+   15  nano ejecuta_python.sh 
+   16  ./ejecuta_python.sh
+   17  nano ejecuta_python.sh 
+   18  ./ejecuta_python.sh
+   19  cd ..
+   20  cd scripts_python/
+   21  cp hello_world.py copia_hello_world.py
+   22  nano copia_hello_world.py 
+   23  cd .. 
+   24  mkdir res
+   25  cd scripts_python/
+   26  nano copia_hello_world.py 
+   27  python3 copia_hello_world.py 
+   28  nano copia_hello_world.py 
+   29  python3 copia_hello_world.py 
+   30  rm hello_world.py
+   31  ls
+   32  cd ..
+   33  cat res/text.txt 
+   34  mkdir data
+   35  cd data
+   36  wget https://getsamplefiles.com/download/tar/sample-1.tar
+   37  wget https://getsamplefiles.com/download/tar/sample
+   38  wget https://getsamplefiles.com/sample-image-files/png
+   39  wget https://getsamplefiles.com/download/tar/sample-1.tar
+   40  wget https://getsamplefiles.com/download/tar/sample-2.tar
+   41  wget https://getsamplefiles.com/download/tar/sample-1.tar
+   42  wget https://drive.google.com/file/d/16qXy5U1UG45GYtVqgnPWFMQ4KEwLdXFj/view?usp=sharing
+   43  mv view\?usp\=sharing sample-1.tar
+   44  tar -xvf sample-1.tar 
+   45  mv sample-1.tar sample-1
+   46  tar -xvf sample-1
+   47  mv sample-1 view/?usp\=sharing
+   48  rm sample-1 
+   49  wget https://drive.google.com/file/d/16qXy5U1UG45GYtVqgnPWFMQ4KEwLdXFj/view?usp=sharing
+   50  tar -xvf view\?usp\=sharing 
+   51  tar -xvf sample-1.tar 
+   52  find -name "*.jpg"
+   53  pwd
+   54  cd ..
+   55  history
+   56  history > revisar.txt
